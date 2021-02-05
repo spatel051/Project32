@@ -5,7 +5,7 @@ class Nest{
         }
         this.r = r; // 300
         this.body = Bodies.rectangle(x, y, this.r - 100, this.r - 250, options);
-        this.image = loadImage("images/nest.png");
+        this.image = loadImage("nest.png");
         World.add(world, this.body);
     }
 
