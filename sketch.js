@@ -7,8 +7,8 @@ var egg1, nest1, gameState = "Start";
 var chain;
 
 function preload(){
-  backgroundImage = loadImage("images/background.png");
-  boyImage = loadImage("images/boy.png");
+  backgroundImage = loadImage("background.png");
+  boyImage = loadImage("boy.png");
 }
 
 function setup() {
