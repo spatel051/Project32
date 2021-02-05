@@ -6,7 +6,7 @@ class Egg{
         }
         this.r = 100;
         this.body = Bodies.circle(x, y, 50, options)
-        this.image = loadImage("images/egg.png");
+        this.image = loadImage("egg.png");
         World.add(world, this.body);
     }
 
