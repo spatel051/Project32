@@ -7,7 +7,7 @@ class Rock{
         }
         this.r = 50;
         this.body = Bodies.circle(x, y, 50, options);
-        this.image = loadImage("images/stone.png");
+        this.image = loadImage("stone.png");
         World.add(world, this.body);
     }
 
